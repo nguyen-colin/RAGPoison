@@ -1,4 +1,4 @@
-# Don't Believe Everything You Retrieve : RAG Poisoning Experiemnt  
+# Don't Believe Everything You Retrieve : RAG Poisoning Experiement  
 
 ## What our RAG pipeline does
 1. Loads the `distractor` validation split of HotpotQA, or a local JSON file in equivalent schema.
