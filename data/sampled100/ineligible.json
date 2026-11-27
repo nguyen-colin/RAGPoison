@@ -1,0 +1,46 @@
+[
+  {
+    "question_id": "5ac082535542992a796ded2f",
+    "reason": "fewer_candidate_articles_than_top_k",
+    "example": {
+      "id": "5ac082535542992a796ded2f",
+      "question": "Which plant has more species, Bolax or Jovibarba?",
+      "answer": "Bolax",
+      "type": "comparison",
+      "level": "hard",
+      "supporting_facts": {
+        "title": [
+          "Bolax",
+          "Jovibarba"
+        ],
+        "sent_id": [
+          0,
+          0
+        ]
+      },
+      "context": {
+        "title": [
+          "Jovibarba heuffelii",
+          "Jovibarba",
+          "Bolax"
+        ],
+        "sentences": [
+          [
+            "Jovibarba heuffelii, common name Hen-and-chickens, as a plant species native to the Balkans and to the Carpathians in Europe but reportedly naturalized in Wisconsin and probably in other parts of North America.",
+            " It grows on rocky outcrops."
+          ],
+          [
+            "Jovibarba (\"beard of Jupiter\") is a small genus of three species of succulent flowering plants in the family Crassulaceae, endemic to mountainous regions in the southeastern quadrant of Europe.",
+            " The genus is sometimes classified as a subgenus of \"Sempervivum\", to which it is closely related.",
+            " \"Jovibarba\" have pale-greenish-yellow or yellow actinomorphic flowers with about six petals, while \"Sempervivum\" have generally pinkish flowers with around twice as many petals, which open more widely than jovibarba flowers.",
+            " The common name hen and chicks is applied to some \"Jovibarba\" species (and also species in several other genera)."
+          ],
+          [
+            "Bolax is a genus of flowering plant in the Apiaceae, with 4 or 5 species.",
+            " It is endemic to temperate South America."
+          ]
+        ]
+      }
+    }
+  }
+]

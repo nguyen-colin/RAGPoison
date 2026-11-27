@@ -3,5 +3,12 @@
 .venv/
 __pycache__/
 .pytest_cache/
-outputs/
+# Keep temporary outputs private; share only the four final result files.
+outputs/*
+!outputs/poisoning/
+outputs/poisoning/*
+!outputs/poisoning/final25-results-0.json
+!outputs/poisoning/final25-results-25.json
+!outputs/poisoning/final25-results-50.json
+!outputs/poisoning/final25-results-75.json
 .DS_Store
